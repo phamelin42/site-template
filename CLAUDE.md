@@ -60,7 +60,7 @@ WCAG 2.2 AA : focus visible, cibles de 44 px, libellé de champ visible, texte �
 
 ## Dépendance Fuda
 
-Installée depuis GitHub à un commit précis de `main` (`"fuda": "github:phamelin42/design-system-fuda#<commit>"`) ; `prepare` construit la lib, ce qui rend l'installation plus longue. Pour la mettre à jour, prendre le dernier commit de `main` de Fuda. Si une icône, une variante ou un composant manque, on l'ajoute dans Fuda, pas ici.
+Paquet npm `@phamelin/fuda` (imports `from '@phamelin/fuda'`). Ses styles (`node_modules/@phamelin/fuda/styles/fuda.css`) sont déclarés dans `angular.json`, avant `src/styles.scss` : le paquet n'exporte pas ses styles, un `@import` dans le SCSS ne les résoudrait pas. Pour la mettre à jour : `npm install @phamelin/fuda@latest`, puis toutes les vérifications. Si une icône, une variante ou un composant manque, on l'ajoute dans Fuda (et on publie une version), pas ici.
 
 ## Versions
 
