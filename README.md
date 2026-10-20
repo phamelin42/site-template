@@ -11,13 +11,13 @@ npm install
 npm start          # http://localhost:4200
 ```
 
-| Commande                             | Rôle                                                    |
-| ------------------------------------ | ------------------------------------------------------- |
-| `npm test`                           | Tests unitaires (Vitest via `ng test`)                  |
-| `npm run lint` / `npm run typecheck` | ESLint / tsc                                            |
-| `npm run build`                      | Build de production dans `dist/site-template/browser`         |
-| `npm run e2e`                        | Playwright sur ce build : titre, icônes, axe Jour/Nuit  |
-| `npm run format`                     | Prettier                                                |
+| Commande                             | Rôle                                                   |
+| ------------------------------------ | ------------------------------------------------------ |
+| `npm test`                           | Tests unitaires (Vitest via `ng test`)                 |
+| `npm run lint` / `npm run typecheck` | ESLint / tsc                                           |
+| `npm run build`                      | Build de production dans `dist/site-template/browser`  |
+| `npm run e2e`                        | Playwright sur ce build : titre, icônes, axe Jour/Nuit |
+| `npm run format`                     | Prettier                                               |
 
 Pour lancer Playwright avec un Chromium déjà installé : `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/chemin/chrome npm run e2e`.
 
