@@ -12,14 +12,14 @@ Pour créer un nouveau site à partir de ce dépôt : « Use this template » su
 
 Node ≥ 22.22.3 (exigé par Angular 22 ; `.nvmrc` : 24). Site : site-template.phamelin.fr.
 
-| Commande                             | Rôle                                                              |
-| ------------------------------------ | ----------------------------------------------------------------- |
-| `npm start`                          | Serveur de développement                                          |
-| `npm test`                           | Tests unitaires (Vitest via `ng test`)                            |
-| `npm run lint` / `npm run typecheck` | ESLint (angular-eslint) / tsc sur l'appli et les specs            |
-| `npm run build`                      | Build de production (`dist/site-template/browser`)                      |
-| `npm run e2e`                        | Playwright sur ce build : parcours, clavier, axe Jour/Nuit        |
-| `npm run format` / `format:check`    | Prettier                                                          |
+| Commande                             | Rôle                                                       |
+| ------------------------------------ | ---------------------------------------------------------- |
+| `npm start`                          | Serveur de développement                                   |
+| `npm test`                           | Tests unitaires (Vitest via `ng test`)                     |
+| `npm run lint` / `npm run typecheck` | ESLint (angular-eslint) / tsc sur l'appli et les specs     |
+| `npm run build`                      | Build de production (`dist/site-template/browser`)         |
+| `npm run e2e`                        | Playwright sur ce build : parcours, clavier, axe Jour/Nuit |
+| `npm run format` / `format:check`    | Prettier                                                   |
 
 Une tâche est terminée quand `lint`, `typecheck`, `test` et `build` sont verts, et `e2e` si l'interface, le clavier ou le focus changent.
 

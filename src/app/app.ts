@@ -13,7 +13,7 @@ export class App {
   private readonly themeService = inject(FdThemeService);
 
   protected readonly title = 'Site Template';
-  protected readonly tagline = "Modèle de départ pour les nouveaux sites de phamelin.fr.";
+  protected readonly tagline = 'Modèle de départ pour les nouveaux sites de phamelin.fr.';
   protected readonly isDark = computed(() => this.themeService.theme() === 'dark');
 
   protected setDark(dark: boolean): void {
